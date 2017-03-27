@@ -13,7 +13,7 @@ Winter semester 2016/2017
 For example, there is a folder in D:\ (*D:\folder*) which contains one file (*D:\folder\file.txt*)<br>
 and one folder (*D:\folder\folder1*) which contains one file (*D:\folder\folder1\file1.txt*).
 * Packing<br>
-argv[1] = `pack D:\folder D:\archive.bin`
+Command: `pack D:\folder D:\archive.bin`
 ```
 Packing...
 file.txt - the file is successfully packed!
@@ -22,7 +22,7 @@ folder1\file1.txt - the file is successfully packed!
 Packing successfully finished!
 ```
 * Unpacking<br>
-argv[1] = `unpack D:\archive.bin D:\unpacked`
+Command: `unpack D:\archive.bin D:\unpacked`
 ```
 Unpacking...
 D:\unpacked - the directory is successfully created!
@@ -32,7 +32,7 @@ folder1\file1.txt - the file is successfully unpacked!
 Unpacking successfully finished!
 ```
 * List<br>
-argv[1] = `list D:\archive.bin`
+Command: `list D:\archive.bin`
 ```
 List:
 1: file.txt - file
